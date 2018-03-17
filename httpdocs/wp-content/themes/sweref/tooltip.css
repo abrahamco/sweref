@@ -1,0 +1,27 @@
+
+#contact,a.selected {
+  text-decoration:none !important;
+  color:white !important;
+  z-index:100;
+}
+
+.messagepop {
+  background-color:#FFFFFF;
+  border:1px solid #999999;
+  cursor:default;
+  display:none;
+  margin-top: 25px;
+  position:absolute;
+  text-align:left;
+  z-index:50;
+  padding: 25px 25px 20px;
+}
+
+
+
+.messagepop p, .messagepop.div {
+  border-bottom: 1px solid #EFEFEF;
+  margin: 8px 0;
+  padding-bottom: 8px;
+}
+

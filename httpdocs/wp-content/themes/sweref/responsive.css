@@ -1,0 +1,57 @@
+@media only screen and (max-width: 768px) {
+    .logo {
+    padding-top:20px;
+     padding-left: 15px;
+     padding-bottom: 15px;
+    } 
+   .navbar{padding :0 !important;}
+   .content-block{padding-left:15px;margin: 0px !important;}
+   .footer{margin:0;padding: 0; border-left: 0px !important;}
+    .footer-content{padding-left: 15px;padding-top:30px;}
+    #company p{width:auto;float:left;padding-right:10px;}
+    #branch p{width:auto;float:left;padding-right:10px;}
+#members p{width:auto;float:left;padding-right:10px;}
+.footer-block{background-color:#009BAA; color:#fff; font-family:FiraSans-Regular;}
+.twitter p{margin-top:10px; margin-left:-9px;}
+.twit-img{float:left; padding-left:0px;margin-top:-9px;}
+.link-img{float:left; padding-right:10px;}
+.linkedin{float: right; margin-top: -43px;padding-right: 35%;}
+.copy-right{padding-left:16px;margin-top: 20px;}
+.partner-logo{float: right;margin-top: -80px;}
+}
+
+/*@media only screen and (min-width: 768px) {
+   .menu {max-width:360px;}
+}*/
+
+
+
+@media (min-width:769px) and (max-width:992px) {
+
+.footer-content{padding-left: 0px; }
+.footer-content:last-child {border-bottom:1px solid #fff;}
+.footer{border-left:0px; margin-bottom:0px;margin-top:20px;}
+.footer-block{background-color:#009BAA; color:#fff; font-family:FiraSans-Regular;}
+.twitter p{margin-top:10px; margin-left:-9px;}
+.twit-img{float:left; padding-left:0px;margin-top:-9px;}
+.link-img{float:left; padding-right:10px;}
+.linkedin{float: right; margin-top: -43px;padding-right: 50%;}
+.copy-right{padding-left:16px;margin-top: 20px;}
+#members p{width:auto;float:left;padding-right:10px;}
+#company p{width:auto;float:left;padding-right:10px;}
+#branch p{width:auto;float:left;padding-right:10px;}
+.partner-logo{float: right;margin-top: -80px;}
+}
+
+@media (min-width:320px) and (max-width:630px)
+{
+.partner-logo{margin-top: -98px;}
+.linkedin{padding-right:10%}
+}
+
+@media (min-width:320px) and (max-width:440px)
+{
+.linkedin{float:none;}
+.link-img{padding-left:0px;padding-right:3px;}
+.linkedin p{padding-left:3px;}
+}
